@@ -20,10 +20,10 @@ If you haven't already, clone the Carbon Design Kit repo (https://github.com/car
 # Getting Started
 Open your terminal (CMD + Space start typing 'terminal')<br/>
 Grab the git repo URL from the green 'Clone' button<br/>
-**Type:** cd Documents<br/>
-**Type:** git clone paste-in-the-copied-url<br/>
-**Type:** cd update-carbon<br/>
-**Type:** pwd<br/>
+**Type:** `cd Documents`<br/>
+**Type:** `git clone paste-in-the-copied-url`<br/>
+**Type:** `cd update-carbon`<br/>
+**Type:** `pwd`<br/>
 List out the screen
 Copy the path that is returned<br/>
 Open the .plist file us a text editor or your choice.<br/>
@@ -34,11 +34,11 @@ Use your favorite text editor to open the .sh file.<br/>
 Follow instructions in file. Separate text out, use example<br/>
 Save<br/>
 Move back to your terminal<br/>
-**Type:** sudo mv com.ibm.design.checkForCarbonUpdates.plist /Library/LaunchAgents<br/>
+**Type:** `sudo mv com.ibm.design.checkForCarbonUpdates.plist /Library/LaunchAgents`<br/>
 You will have to give your login password<br/>
 List out files to note the missing file
-**Type:** launchctl load /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist<br/>
-**Type:** launchctl start /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist<br/>
+**Type:** `launchctl load /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
+**Type:** `launchctl start /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
 If you navigate back to your carbon-design-kit folder you should see a lastUpdate.txt file. Open that file and you should see the time which is pretty close to the current time. You should also see feedback from the git pull.
 
  
