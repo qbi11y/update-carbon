@@ -1,7 +1,3 @@
-Notes: 
-Ensure git is installed
-Where to set the folder up
-talk about running it manually
 # Update Carbon
 Maximize your workflow by automatically updateing the Carbon toolkit. Each time you log into your machine, the script will check for updates to the Carbon Design Kit. If updates are found they will automatically be downloaded to your machine. 
 
