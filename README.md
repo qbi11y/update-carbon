@@ -5,7 +5,7 @@ talk about running it manually
 # Update Carbon
 Maximize your workflow by automatically updateing the Carbon toolkit. Each time you log into your machine, the script will check for updates to the Carbon Design Kit. If updates are found they will automatically be downloaded to your machine. 
 
-# Prerequistes
+## Prerequistes
 * Carbon Design Kit repo cloned to your local machine<br/>
 * git command line tool<br/>
 
@@ -28,7 +28,7 @@ Open your terminal<br/>
 **Type:** `git clone https://github.com/carbon-design-system/carbon-design-kit.git`<br/>
 It will take a few minutes to download everything so go get a cup of coffee. Once it's finished you will have the repo on your local machine. If you look in your Documents folder you will see a folder called 'carbon-design-kit'. This folder is **IMPORTANT!** It is the folder that will receive the updates whenever the script is run. It also will be the folder that Sketch will look for the Carbon Design Library. If you move this folder you will need to update the .plist file in /Library/LaunchAgents to reflect the change. But you probably don't want to do that so just leave it alone!
 
-# Install Update Carbon
+## Install Update Carbon
 Open your terminal (CMD + Space start typing 'terminal')<br/>
 Copy the git repo URL from the green 'Clone' button<br/>
 **Type:** `cd ~/Documents`<br/>
@@ -59,7 +59,7 @@ If you navigate back to your carbon-design-kit folder you should see a lastUpdat
 Open that file and you should see the time which is pretty close to the current time. You should also see feedback from the git pull.
 
 
-# Manually run the script
+## Manually run the script
 There may be times when you want to check for the Carbon Design Kit update without having to log and log in. In those instances simply open your terminal and navigate to the update-carbon folder.<br/>
 **Type:** `./check-for-carbon-update.sh`<br/>
 If it is up to date you will see 'Already up to date'. If there is an update you will see the process of downloading taking place. 
