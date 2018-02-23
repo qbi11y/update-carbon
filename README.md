@@ -26,30 +26,35 @@ You should now see a github version.<br/>
 Open your terminal<br/>
 **Type:** `cd ~/Documents`<br/>
 **Type:** `git clone https://github.com/carbon-design-system/carbon-design-kit.git`<br/>
-It will take a few minutes to download everything so go get a cup of coffee. Once it's finished you will have the repo on your local machine. If you look in your Documents folder you will see a folder called carbon-design-kit. This folder is **IMPORTANT!** It is the folder that will receive the updates whenever the script is run. It also will be the folder that Sketch will look for the Carbon Design Library. If you move this folder you will need to update the .plist file in /Library/LaunchAgents to reflect the change.
+It will take a few minutes to download everything so go get a cup of coffee. Once it's finished you will have the repo on your local machine. If you look in your Documents folder you will see a folder called 'carbon-design-kit'. This folder is **IMPORTANT!** It is the folder that will receive the updates whenever the script is run. It also will be the folder that Sketch will look for the Carbon Design Library. If you move this folder you will need to update the .plist file in /Library/LaunchAgents to reflect the change. But you probably don't want to do that so just leave it alone!
 
 # Install Update Carbon
 Open your terminal (CMD + Space start typing 'terminal')<br/>
-Grab the git repo URL from the green 'Clone' button<br/>
-**Type:** `cd Documents`<br/>
+Copy the git repo URL from the green 'Clone' button<br/>
+**Type:** `cd ~/Documents`<br/>
 **Type:** `git clone paste-in-the-copied-url`<br/>
 **Type:** `cd update-carbon`<br/>
+**Type:** `ls`<br/>
+You should see the contents of the folder listed: check-for-carbon-update.sh and com.ibm.design.checkForCarbonUpdates.plist<br/>
 **Type:** `pwd`<br/>
-List out the screen
-Copy the path that is returned<br/>
-Open the .plist file us a text editor or your choice.<br/>
-Look for 'paste-your-path-here' and paste the path over it.
-Locate the string tag that is looking for a path and paste the copied path in place.<br/>
-Locate the path to your carbon-design-kit folder and copy that.<br/>
-Use your favorite text editor to open the .sh file.<br/>
-Follow instructions in file. Separate text out, use example<br/>
-Save<br/>
+Copy the path that is returned, should be right above the prompt<br/>
+Using the Finder, navigate to the update-carbon folder and open the com.ibm.design.checkForCarbonUpdates.plist file using a text editor of your choice.<br/>
+Look for 'paste-your-path-here' and paste the path over the phrase. Make sure you do not paste over the check-for-carbon-update.sh filename.<br/>
+Go back to your terminal<br/>
+If you have followed these instructions, **Type:** `cd ~/Documents/update-carbon` - If you have not followed these instructions locate the path to your update-carbon folder.<br/>
+**Type:** `pwd`<br/>
+Copy the path that is returned, should be right above the prompt<br/>
+Using the Finder, navigate to the update-carbon folder and open the check-for-carbon-update.sh file using a text editor of your choice.<br/>
+Paste the copied path into the appropriate place in the file.<br/>
+Save the file.<br/>
 Move back to your terminal<br/>
 **Type:** `sudo mv com.ibm.design.checkForCarbonUpdates.plist /Library/LaunchAgents`<br/>
 You will have to give your login password<br/>
-List out files to note the missing file
+**Type:** `ls`<br/>
+You should only see the check-for-carbon-updates.sh file<br/>
 **Type:** `launchctl load /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
 **Type:** `launchctl start /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
-If you navigate back to your carbon-design-kit folder you should see a lastUpdate.txt file. Open that file and you should see the time which is pretty close to the current time. You should also see feedback from the git pull.
+If you navigate back to your carbon-design-kit folder you should see a lastUpdate.txt file.<br/>
+Open that file and you should see the time which is pretty close to the current time. You should also see feedback from the git pull.
 
  
