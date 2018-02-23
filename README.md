@@ -12,8 +12,7 @@ Maximize your workflow by automatically updateing the Carbon toolkit. Each time 
 **Do I have get installed?**<br/>
 Open your terminal, and type `git --version`. If a version is not returned you will need to install git tools.<br/>
 
-
-In order for this work on your machine you will need to have the Carbon Design Kit repo cloned to your local machine. If you currently download the file yourself this will not work. If you haven't worked with git hub before you will need to install the git command line tools. Check to see if you have git hub already installed by opening your terminal window and typing 'git --version' at the command prompt. If you have git installed you will get a version number back. If not you will get an error.
+*Note* If you currently download the Carbon Design Kit Sketch file yourself this will not work. You will need to clone the Carbon Design Kit repo.
 
 **How to install git**<br/>
 Paste the following into your terminal:<br/> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br/>
