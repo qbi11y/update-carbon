@@ -12,9 +12,9 @@ Open your terminal, and type `git --version`. If a version is not returned you w
 
 **How to install git**<br/>
 Paste the following into your terminal:<br/> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br/>
-Paste the following into your terminal: `brew update` <br/>
-Paste the following into your terminal: `brew install git`<br/>
-Paste the following into your terminal: `git --version`<br/>
+**Paste the following into your terminal:** `brew update` <br/>
+**Paste the following into your terminal:** `brew install git`<br/>
+**Paste the following into your terminal:** `git --version`<br/>
 
 You should now see a github version.<br/>
 
