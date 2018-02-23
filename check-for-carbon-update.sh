@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#If your folder name has a space in it, you will need to escape it
+#Ex: User/Documents/Carbon Design Kit would look like User/Documents/Carbon\ Design\ Kit
 cd paste-your-carbon-design-kit-folder-path-here
 
 #The following code will capture the date and time of the last time

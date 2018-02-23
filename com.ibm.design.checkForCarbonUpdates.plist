@@ -6,7 +6,7 @@
     <string>com.ibm.design.checkForCarbonUpdates</string>
     <key>ProgramArguments</key>
     <array>
-        <string>Your path to the .sh file goes here/check-for-carbon-update.sh</string>
+        <string>/Users/thompsoj/Documents/Github Repos/update-carbon/check-for-carbon-update.sh</string>
     </array>
     <key>StartInterval</key>
     <integer>20</integer>
