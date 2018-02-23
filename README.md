@@ -1,6 +1,8 @@
 # update-carbon
 Automatically update the Carbon toolkit.
 
+If you haven't already, clone the Carbon Design Kit repo. When you clone the repo it will create a folder called 'carbon-design-kit'. Once you have cloned the repo<br/>
+
 # Getting Started
 Open your terminal (CMD + Space start typing 'terminal')<br/>
 Grab the git repo URL from the green 'Clone' button<br/>
@@ -12,6 +14,9 @@ Copy the path this returned<br/>
 Use your favorite text editor to open the .plist file.<br/>
 Locate the string tag that is looking for a path and paste the copied path in place.<br/>
 Save, you may have to give your login password<br/>
+Locate the path to your carbon-design-kit folder and copy that.<br/>
+Use your favorite text editor to open the .sh file.<br/>
+Follow instructions in file<br/>
 Move back to your terminal<br/>
 Type: sudo mv com.ibm.design.checkForUpdates.plist /Library/LaunchAgents<br/>
 You will have to give your login password<br/>
