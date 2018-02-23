@@ -22,7 +22,7 @@ Paste the following into your terminal: `git --version`<br/>
 
 You should now see a github version.<br/>
 
-**How to clone the Carbon Design Kit repo**
+**How to clone the Carbon Design Kit repo**<br/>
 Open your terminal<br/>
 **Type:** `cd ~/Documents`<br/>
 **Type:** `git clone https://github.com/carbon-design-system/carbon-design-kit.git`<br/>
