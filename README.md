@@ -62,5 +62,6 @@ Open that file and you should see the time which is pretty close to the current 
 ## Manually run the script
 There may be times when you want to check for the Carbon Design Kit update without having to log and log in. In those instances simply open your terminal and navigate to the update-carbon folder.<br/>
 **Type:** `./check-for-carbon-update.sh`<br/>
+
 If it is up to date you will see 'Already up to date'. If there is an update you will see the process of downloading taking place. 
  
