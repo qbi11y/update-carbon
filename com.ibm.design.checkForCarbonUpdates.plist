@@ -6,7 +6,7 @@
     <string>com.ibm.design.checkForCarbonUpdates</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/thompsoj/Documents/Bash Scripts/check-for-carbon-update.sh</string>
+        <string>Your path to the check-for-carbon-update.sh file goes here</string>
     </array>
     <key>StartInterval</key>
     <integer>20</integer>
