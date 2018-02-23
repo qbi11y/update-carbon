@@ -6,7 +6,7 @@
     <string>com.ibm.design.checkForCarbonUpdates</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/thompsoj/Documents/Github Repos/update-carbon/check-for-carbon-update.sh</string>
+        <string>Paste-your-path-here/check-for-carbon-update.sh</string>
     </array>
     <key>StartInterval</key>
     <integer>20</integer>
