@@ -5,6 +5,10 @@ talk about running it manually
 # update-carbon
 Maximize your workflow by automatically updateing the Carbon toolkit. Each time you log into your machine, the script will check for updates to the Carbon Design Kit. If updates are found they will automatically be downloaded to your machine. 
 
+# Prerequistes
+git command line tools<br/>
+Carbon Design Kit repo cloned to your local machine<br/>
+
 In order for this work on your machine you will need to have the Carbon Design Kit repo cloned to your local machine. If you currently download the file yourself this will not work. If you haven't worked with git hub before you will need to install the git command line tools. Check to see if you have git hub already installed by opening your terminal window and typing 'git --version' at the command prompt. If you have git installed you will get a version number back. If not you will get an error.
 
 **How to install git**<br/>
