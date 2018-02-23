@@ -1,5 +1,5 @@
 # Update Carbon
-Maximize your workflow by automatically updateing the Carbon toolkit. Each time you log into your machine, the script will check for updates to the Carbon Design Kit. If updates are found they will automatically be downloaded to your machine. 
+Maximize your workflow by automatically updating the Carbon toolkit. Each time you log into your machine, the script will check for updates to the Carbon Design Kit. If updates are found they will automatically be downloaded to your machine. 
 
 ## Prerequistes
 * Carbon Design Kit repo cloned to your local machine<br/>
