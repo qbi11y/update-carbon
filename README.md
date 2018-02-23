@@ -7,9 +7,9 @@ Maximize your workflow by automatically updateing the Carbon toolkit. Each time 
 
 # Prerequistes
 * Carbon Design Kit repo cloned to your local machine<br/>
-* git command line tools<br/>
+* git command line tool<br/>
 
-**Do I have get installed?**<br/>
+**Do I have git command line tool installed?**<br/>
 Open your terminal, and type `git --version`. If a version is not returned you will need to install git tools.<br/>
 
 *Note* If you currently download the Carbon Design Kit Sketch file yourself this will not work. You will need to clone the Carbon Design Kit repo.
@@ -22,9 +22,13 @@ Paste the following into your terminal: `git --version`<br/>
 
 You should now see a github version.<br/>
 
-If you haven't already, clone the Carbon Design Kit repo (https://github.com/carbon-design-system/carbon-design-kit). When you clone the repo it will create a folder called 'carbon-design-kit'. Once you have cloned the repo you can begin the process.<br/>
+**How to clone the Carbon Design Kit repo**
+Open your terminal<br/>
+**Type:** `cd ~/Documents`<br/>
+**Type:** `git clone https://github.com/carbon-design-system/carbon-design-kit.git`<br/>
+It will take a few minutes to download everything so go get a cup of coffee. Once it's finished you will have the repo on your local machine. If you look in your Documents folder you will see a folder called carbon-design-kit. This folder is **IMPORTANT!** It is the folder that will receive the updates whenever the script is run. It also will be the folder that Sketch will look for the Carbon Design Library. If you move this folder you will need to update the .plist file in /Library/LaunchAgents to reflect the change.
 
-# Getting Started
+# Install Update Carbon
 Open your terminal (CMD + Space start typing 'terminal')<br/>
 Grab the git repo URL from the green 'Clone' button<br/>
 **Type:** `cd Documents`<br/>
