@@ -54,8 +54,8 @@ You will have to give your login password<br/>
 You should only see the check-for-carbon-updates.sh file<br/>
 **Type:** `launchctl load /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
 **Type:** `launchctl start /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
-If you navigate back to your carbon-design-kit folder you should see a lastUpdate.txt file.<br/
 
+If you navigate back to your carbon-design-kit folder you should see a lastUpdate.txt file.<br/>
 Open that file and you should see the time which is pretty close to the current time. You should also see feedback from the git pull.
 
  
