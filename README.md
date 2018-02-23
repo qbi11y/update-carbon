@@ -1,7 +1,7 @@
 # update-carbon
 Automatically update the Carbon toolkit.
 
-If you haven't already, clone the Carbon Design Kit repo (https://github.com/carbon-design-system/carbon-design-kit). When you clone the repo it will create a folder called 'carbon-design-kit'. Once you have cloned the repo<br/>
+If you haven't already, clone the Carbon Design Kit repo (https://github.com/carbon-design-system/carbon-design-kit). When you clone the repo it will create a folder called 'carbon-design-kit'. Once you have cloned the repo you can begin the process.<br/>
 
 # Getting Started
 Open your terminal (CMD + Space start typing 'terminal')<br/>
