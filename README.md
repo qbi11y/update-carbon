@@ -17,9 +17,11 @@ Save, you may have to give your login password<br/>
 Locate the path to your carbon-design-kit folder and copy that.<br/>
 Use your favorite text editor to open the .sh file.<br/>
 Follow instructions in file<br/>
+Save<br/>
 Move back to your terminal<br/>
-Type: sudo mv com.ibm.design.checkForUpdates.plist /Library/LaunchAgents<br/>
+Type: sudo mv com.ibm.design.checkForCarbonUpdates.plist /Library/LaunchAgents<br/>
 You will have to give your login password<br/>
 Type: launchctl load /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist<br/>
+Type: launchctl start /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist<br/>
 
  
