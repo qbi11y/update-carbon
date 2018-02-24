@@ -1,5 +1,5 @@
 # Update Carbon
-Maximize your workflow by automatically updating the Carbon toolkit. Each time you log into your machine, the script will check for updates to the Carbon Design Kit. If updates are found they will automatically be downloaded to your machine. 
+Maximize your workflow by automatically updating the Carbon toolkit. No need to constantly check for and download the latest version of the Carbon Design Kit. Each time you log into your machine, as well on a regular interval, your computer will check for updates to the Carbon Design Kit. If updates are found they will automatically be downloaded to your computer. If you have loaded the Carbon Design Kit library into your sketch files you should see a notification about updates in the upper right hand corner of your Sketch file.  
 
 ## Prerequistes
 * Carbon Design Kit repo cloned to your local machine<br/>
@@ -8,7 +8,7 @@ Maximize your workflow by automatically updating the Carbon toolkit. Each time y
 **Do I have git command line tool installed?**<br/>
 Open your terminal, and type `git --version`. If a version is not returned you will need to install git tools.<br/>
 
-**Note** If you currently download the Carbon Design Kit Sketch file yourself this will not work. You will need to clone the Carbon Design Kit repo.
+**Note** If you currently download the Carbon Design Kit Sketch file yourself this will not work. You will need to clone the Carbon Design Kit repo for the automation to work properly.
 
 **How to install git**<br/>
 Paste the following into your terminal:<br/> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br/>
