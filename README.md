@@ -1,4 +1,4 @@
-# Update Carbon
+# Update [Carbon Design Kit](http://www.carbondesignsystem.com/)
 Maximize your workflow by automatically updating the Carbon toolkit. No need to constantly check for and download the latest version of the Carbon Design Kit. Each time you log into your machine, as well on a regular interval, your computer will check for updates to the Carbon Design Kit. If updates are found they will automatically be downloaded to your computer. If you have loaded the Carbon Design Kit library into your sketch files you should see a notification about updates in the upper right hand corner of your Sketch file.  
 
 ## Prerequistes
