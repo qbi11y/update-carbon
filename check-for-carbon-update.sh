@@ -1,8 +1,11 @@
 #!/bin/sh
 
-#If your folder name has a space in it, you will need to escape it
-#Ex: User/Documents/Carbon Design Kit would look like User/Documents/Carbon\ Design\ Kit
-cd paste-your-carbon-design-kit-folder-path-here
+#PLEASE READ TO AVOID ERRORS
+#If your folder name has a space in it, you will need to escape the space character, check example below
+#Example: If your path has spaces like this, User/Documents/Carbon Design Kit 
+#then you would  need to make the path look like this User/Documents/Carbon\ Design\ Kit to avoid issues
+
+cd paste-path-to-carbon-design-kit-folder-here
 
 #The following code will capture the date and time of the last time
 #the script excuted and will give you the result.
