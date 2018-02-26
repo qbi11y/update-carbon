@@ -32,22 +32,27 @@ Copy the git repo URL from the green 'Clone' button<br/>
 **Type:** `cd update-carbon`<br/>
 **Type:** `ls`<br/>
 You should see the contents of the folder listed: check-for-carbon-update.sh and com.ibm.design.checkForCarbonUpdates.plist<br/>
+
 **Type:** `pwd`<br/>
 Copy the path that is returned, should be right above the prompt<br/>
+
 Using the Finder, navigate to the update-carbon folder and open the com.ibm.design.checkForCarbonUpdates.plist file using a text editor of your choice.<br/>
 Look for 'paste-your-path-here' and paste the path over the phrase. Make sure you do not paste over the check-for-carbon-update.sh filename.<br/>
 Go back to your terminal<br/>
 If you have followed these instructions, **Type:** `cd ~/Documents/update-carbon` - If you have not followed these instructions locate the path to your update-carbon folder.<br/>
+
 **Type:** `pwd`<br/>
 Copy the path that is returned, should be right above the prompt<br/>
 Using the Finder, navigate to the update-carbon folder and open the check-for-carbon-update.sh file using a text editor of your choice.<br/>
 Paste the copied path into the appropriate place in the file.<br/>
 Save the file.<br/>
+
 Move back to your terminal<br/>
 **Type:** `sudo mv com.ibm.design.checkForCarbonUpdates.plist /Library/LaunchAgents`<br/>
-You will have to give your login password<br/>
+You may have to give your login password - (You will not see a cursor moving while you type)<br/>
+
 **Type:** `ls`<br/>
-You should only see the check-for-carbon-updates.sh file<br/>
+You should only see the check-for-carbon-updates.sh file as the last command moved the other file.<br/>
 **Type:** `launchctl load /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
 **Type:** `launchctl start /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
 
