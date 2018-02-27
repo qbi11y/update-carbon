@@ -53,7 +53,7 @@ You may have to give your login password - (You will not see a cursor moving whi
 
 **Type:** `ls`<br/>
 You should only see the check-for-carbon-updates.sh file as the last command moved the other file.<br/>
-**Type:** `launchctl load /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
+**Type:** `launchctl load -w /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
 **Type:** `launchctl start /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
 
 If you navigate back to your carbon-design-kit folder you should see a lastUpdate.txt file.<br/>
