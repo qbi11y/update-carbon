@@ -8,7 +8,7 @@
     <array>
         <string>paste-your-path-here/check-for-carbon-update.sh</string>
     </array>
-    <key>StartInterval</key>
-    <integer>3600</integer>
+    <key>RunAtLoad</key>
+    <true/>
 </dict>
 </plist>
