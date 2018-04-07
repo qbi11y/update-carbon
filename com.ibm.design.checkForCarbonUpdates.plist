@@ -6,9 +6,11 @@
     <string>com.ibm.design.checkForCarbonUpdates</string>
     <key>ProgramArguments</key>
     <array>
-        <string>paste-your-path-here/check-for-carbon-update.sh</string>
+        <string>/Users/thompsoj/Documents/Bash Scripts/check-for-carbon-update.sh</string>
     </array>
-    <key>RunAtLoad</key>
+    <key>KeepAlive</key>
     <true/>
+    <key>SetInterval</key>
+    <integer>3600</integer>
 </dict>
 </plist>
