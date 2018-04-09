@@ -9,8 +9,8 @@
         <string>/Users/thompsoj/Documents/Bash Scripts/check-for-carbon-update.sh</string>
     </array>
     <key>KeepAlive</key>
-    <true/>
-    <key>SetInterval</key>
+    <true />
+    <key>ThrottleInterval</key>
     <integer>3600</integer>
 </dict>
 </plist>
