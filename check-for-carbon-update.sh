@@ -13,3 +13,6 @@ cd paste-path-to-carbon-design-kit-folder-here
 #If you see a bunch of stuff that doesn't  make sense if you're not familiar with git, that means the library has been updated.
 date > lastUpdate.txt
 git pull | tee -a lastUpdate.txt
+
+#To ensure that Sketch can see the file even after the folder name is updated with the version we move the folder to a known location
+mv Carbon\ Design\ Kit\ -?* Carbon\ Design\ Kit
