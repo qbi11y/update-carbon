@@ -26,43 +26,16 @@ It will take a few minutes to download everything so go get a cup of coffee. Onc
 
 ## Install Update Carbon
 Open your terminal (CMD + Space start typing 'terminal')<br/>
-Copy the git repo URL from the green 'Clone' button<br/>
 **Type:** `cd ~/Documents`<br/>
-**Type:** `git clone paste-in-the-copied-url`<br/>
+**Type:** `git clone https://github.com/qbi11y/update-carbon.git`<br/>
+Once the repo has been successfully cloned to your machine
 **Type:** `cd update-carbon`<br/>
-**Type:** `ls`<br/>
-You should see the contents of the folder listed: check-for-carbon-update.sh and com.ibm.design.checkForCarbonUpdates.plist<br/>
+**Type:** `./install.sh`<br/>
+You may be prompted for your password. This is the password you use to log into your machine.<br/>
+This may take a minute to complete. Once complete you should see a Update Carbon Design Kit folder in your Documents folder. Open that folder and the Carbon Design Kit.sketch file you see is what you will use to load into Sketch. Do not move this folder or rename the file.
 
-**Type:** `pwd`<br/>
-Copy the path that is returned, should be right above the prompt<br/>
-
-Using the Finder, navigate to the update-carbon folder and open the com.ibm.design.checkForCarbonUpdates.plist file using a text editor of your choice.<br/>
-Look for 'paste-your-path-here' and paste the path over the phrase. Make sure you do not paste over the check-for-carbon-update.sh filename.<br/>
-Go back to your terminal<br/>
-If you have followed these instructions, **Type:** `cd ~/Documents/update-carbon` - If you have not followed these instructions locate the path to your update-carbon folder.<br/>
-
-**Type:** `pwd`<br/>
-Copy the path that is returned, should be right above the prompt<br/>
-Using the Finder, navigate to the update-carbon folder and open the check-for-carbon-update.sh file using a text editor of your choice.<br/>
-Paste the copied path into the appropriate place in the file.<br/>
-Save the file.<br/>
-
-Move back to your terminal<br/>
-**Type:** `sudo mv com.ibm.design.checkForCarbonUpdates.plist /Library/LaunchAgents`<br/>
-You may have to give your login password - (You will not see a cursor moving while you type)<br/>
-
-**Type:** `ls`<br/>
-You should only see the check-for-carbon-updates.sh file as the last command moved the other file.<br/>
-**Type:** `launchctl load -w /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
-**Type:** `launchctl start /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist`<br/>
-
-If you navigate back to your carbon-design-kit folder you should see a lastUpdate.txt file.<br/>
+You should see a lastUpdate.txt file.<br/>
 Open that file and you should see the time which is pretty close to the current time. You should also see feedback from the git pull.
-
-
-## Manually run the script
-There may be times when you want to check for the Carbon Design Kit update without having to log and log in. In those instances simply open your terminal and navigate to the update-carbon folder.<br/>
-**Type:** `./check-for-carbon-update.sh`<br/>
 
 If it is up to date you will see 'Already up to date'. If there is an update you will see the process of downloading taking place. 
  
