@@ -4,7 +4,6 @@ Maximize your workflow by automatically updating the Carbon toolkit. No need to 
 **Note** If you currently download the Carbon Design Kit Sketch file yourself this will not work. You will need to clone the Carbon Design Kit repo for the automation to work properly.
 
 ## Prerequistes
-* Carbon Design Kit repo cloned to your local machine<br/>
 * git command line tool<br/>
 
 **Do I have git command line tool installed?**<br/>
@@ -17,12 +16,6 @@ Paste the following into your terminal:<br/> `ruby -e "$(curl -fsSL https://raw.
 **Paste the following into your terminal:** `git --version`<br/>
 
 You should now see a github version.<br/>
-
-**How to clone the Carbon Design Kit repo**<br/>
-Open your terminal (CMD + Space start typing 'terminal')<br/>
-**Type:** `cd ~/Documents`<br/>
-**Type:** `git clone https://github.com/carbon-design-system/carbon-design-kit.git`<br/>
-It will take a few minutes to download everything so go get a cup of coffee. Once it's finished you will have the repo on your local machine. If you look in your Documents folder you will see a folder called 'carbon-design-kit'. This folder is **IMPORTANT!** It is the folder that will receive the updates whenever the program is run. It also will be the folder that Sketch will look for the Carbon Design Library. If you move this folder you will need to update the .plist file in /Library/LaunchAgents to reflect the change. But you probably don't want to do that so just leave it alone!
 
 ## Install Update Carbon
 Open your terminal (CMD + Space start typing 'terminal')<br/>
