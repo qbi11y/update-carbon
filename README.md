@@ -19,7 +19,7 @@ You should now see a github version.<br/>
 
 ## Install Update Carbon
 Open your terminal (CMD + Space start typing 'terminal')<br/>
-**Type:** `cd ~/Documents`<br/>
+**Type:** `cd ~/Documents` or wherever you may keep repos<br/>
 **Type:** `git clone https://github.com/qbi11y/update-carbon.git`<br/>
 Once the repo has been successfully cloned to your machine<br/>
 **Type:** `cd update-carbon`<br/>
