@@ -21,7 +21,7 @@ You should now see a github version.<br/>
 Open your terminal (CMD + Space start typing 'terminal')<br/>
 **Type:** `cd ~/Documents`<br/>
 **Type:** `git clone https://github.com/qbi11y/update-carbon.git`<br/>
-Once the repo has been successfully cloned to your machine
+Once the repo has been successfully cloned to your machine<br/>
 **Type:** `cd update-carbon`<br/>
 **Type:** `./install.sh`<br/>
 You may be prompted for your password. This is the password you use to log into your machine.<br/>
