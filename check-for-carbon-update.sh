@@ -5,7 +5,7 @@
 #Example: If your path has spaces like this, User/Documents/Carbon Design Kit 
 #then you would  need to make the path look like this User/Documents/Carbon\ Design\ Kit to avoid issues
 
-cd paste-path-to-carbon-design-kit-folder-here
+cd ~/Documents/Update\ Carbon\ Design\ Kit/carbon-design-kit
 
 #The following code will capture the date and time of the last time
 #the script excuted and will give you the result.
@@ -15,4 +15,4 @@ date > lastUpdate.txt
 git pull | tee -a lastUpdate.txt
 
 #To ensure that Sketch can see the file even after the folder name is updated with the version we move the folder to a known location
-mv Carbon\ Design\ Kit\ -?* Carbon\ Design\ Kit
+cp Carbon\ Design\ Kit\ -?*/Carbon\ Design\ Kit.sketch ../../
