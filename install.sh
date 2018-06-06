@@ -7,6 +7,7 @@ warning="\033[093m" #yellow
 info="\033[034m"    #blue
 default="\033[039m" #white
 bold="\033[1m"      #bold
+normal="\033[0m"    #normal
 
 #Set up required folders
 
@@ -76,12 +77,10 @@ fi
 
 launchctl start /Library/LaunchAgents/com.ibm.design.checkForCarbonUpdates.plist
 echo "$success .plist file successfully loaded"
-echo "Installation is complete!$default" 
-echo "$info $bold NEXT STEPS$default"
-echo "Load The Sketch Library File"
+echo "Installation is complete!$default"
+
+#Next steps for the user to load the file into Sketch 
+echo "$bold NEXT STEPS$normal"
+echo "$info Load The Sketch Library File$normal"
 echo "Open your Sketch application, go to the Plugin menu item, select 'Manage Plugins', select Libraries, select Add Library, your library
 file is located at /Users/$username/Documents/$folder_name.$default"
-
-
-#cd ../../"$library_folder_name"
-#ls
