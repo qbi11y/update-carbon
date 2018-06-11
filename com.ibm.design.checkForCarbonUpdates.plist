@@ -6,7 +6,7 @@
     <string>com.ibm.design.checkForCarbonUpdates</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/thompsoj/Documents/Update Carbon Design Kit/scripts/check-for-carbon-update.sh</string>
+        <string>/Users/username/Documents/Update Carbon Design Kit/scripts/check-for-carbon-update.sh</string>
     </array>
     <key>KeepAlive</key>
     <true />
