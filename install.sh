@@ -1,6 +1,7 @@
 #!/bin/sh
 #setup variables
 folder_name="Update Carbon Design Kit"
+carbon_folder_name="Carbon Design Kit"
 script_folder_name="scripts"
 success="\033[032m" #green
 failure="\033[031m" #red
