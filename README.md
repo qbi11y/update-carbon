@@ -27,7 +27,7 @@ Once the repo has been successfully cloned to your machine<br/>
 You may be prompted for your password. This is the password you use to log into your machine.<br/><br/>
 This may take a minute to complete. Once complete you should see a Update Carbon Design Kit folder in your Documents folder. Open that folder and the Carbon Design Kit.sketch file you see is what you will use to load into Sketch. **DO NOT** move this folder or rename the file.<br><br>
 
-##Install Carbon Components Library##
+## Install Carbon Components Library
 Open your Sketch application, go to the Plugin menu item, select 'Manage Plugins', select Libraries, select Add Library, your library file is located in the Update Carbon Design Kit folder in your Documents folder (unless you changed the default location)<br><br>
 
 **Note:** After the first update check, which is set to one hour, you should see a lastUpdate.txt file. If it is up to date you will see 'Already up to date'. If there is an update you will see the process of downloading taking place. 
