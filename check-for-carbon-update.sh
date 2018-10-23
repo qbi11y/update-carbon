@@ -11,4 +11,4 @@ date | tee -a ../lastUpdate.txt
 git pull | tee -a ../lastUpdate.txt
 
 #To ensure that Sketch can see the file even after the folder name is updated with the version we move the folder to a known location
-cp Carbon\ Design\ Kit\ -?*/Carbon\ Design\ Kit.sketch ../../
+mv Carbon\ Design\ Kit\ -?*/Carbon\ Design\ Kit.sketch ../../
