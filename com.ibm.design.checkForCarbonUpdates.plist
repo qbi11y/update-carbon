@@ -11,6 +11,6 @@
     <key>KeepAlive</key>
     <true />
     <key>ThrottleInterval</key>
-    <integer>3600</integer>
+    <integer>86400</integer>
 </dict>
 </plist>
