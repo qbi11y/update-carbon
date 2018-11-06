@@ -8,6 +8,7 @@ Maximize your workflow by automatically updating the Carbon toolkit. No need to 
 
 **Do I have git command line tool installed?**<br/>
 Open your terminal, and type `git --version`. If a version is not returned you will need to install git tools.<br/>
+If a version is returned skip to 'Install Update Carbon'<br>
 
 **How to install git**<br/>
 Paste the following into your terminal:<br/> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br/>
