@@ -8,6 +8,8 @@
     <array>
         <string>/Users/username/Documents/Update Carbon Design Kit/scripts/check-for-carbon-update.sh</string>
     </array>
+    <key>RunAtLoad</key>
+    <true />
     <key>KeepAlive</key>
     <true />
     <key>ThrottleInterval</key>
