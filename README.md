@@ -29,6 +29,4 @@ This may take a minute to complete. Once complete you should see a Update Carbon
 
 ## Install Carbon Components Library
 Open your Sketch application, go to the Plugin menu item, select 'Manage Plugins', select Libraries, select Add Library, your library file is located in the Update Carbon Design Kit folder in your Documents folder (unless you changed the default location)<br>
-
-**Note:** After the first update check, which is set to one hour, you should see a lastUpdate.txt file. If it is up to date you will see 'Already up to date'. If there is an update you will see the process of downloading taking place. 
  
