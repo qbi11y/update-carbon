@@ -1,17 +1,17 @@
 # Update [Carbon Design Kit](http://www.carbondesignsystem.com/)
-Maximize your workflow by automatically updating the Carbon toolkit. No need to constantly check for and download the latest version of the Carbon Design Kit. Each time you log into your machine, as well on a regular interval, your computer will check for updates to the Carbon Design Kit. If updates are found they will automatically be downloaded to your computer. If you have loaded the Carbon Design Kit library into your sketch files you should see a notification about updates in the upper right hand corner of your Sketch file.
+**Note** If you currently have the Sketch libray file loaded, you will need to unload the Sketch library file before moving forward.<br>
 
-**Note** If you currently download the Carbon Design Kit Sketch file yourself this will not work. You will need to clone the Carbon Design Kit repo for the automation to work properly.
+No need to constantly check for and download the latest version of the Carbon Design Kit. Each time you log into your machine, your computer will check for updates to the Carbon Design Kit. If the Sketch library is updated you will see a notification about updates in the upper right hand corner of your Sketch file.
 
-## Prerequistes
+## Prerequisites
 * git command line tool<br/>
 
 **Do I have git command line tool installed?**<br/>
-Open your terminal, and type `git --version`. If a version is not returned you will need to install git tools.<br/>
+Open your terminal (CMD + Space start typing 'terminal'), and type `git --version`. If a version is not returned you will need to install git tools. If you get a modal asking if you want to download Xcode developer tools, say yes and follow the installation prompts.<br/>
 If a version is returned skip to 'Install Update Carbon'<br>
 
 **How to install git**<br/>
-Paste the following into your terminal:<br/> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br/>
+Paste the following into your terminal:<br/> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br/>Follow all prompts and wait for the terminal prompt before you continue, this could take minute or two.<br>
 **Paste the following into your terminal:** `brew update` <br/>
 **Paste the following into your terminal:** `brew install git`<br/>
 **Paste the following into your terminal:** `git --version`<br/>
