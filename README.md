@@ -15,7 +15,7 @@ If a version is returned skip to 'Install Update Carbon'<br>
 If a version is not returned you will need to install git tools.<br/> 
 
 **How to install git**<br/>
-**Paste the following into your terminal:**<br/> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br/>Follow all prompts and wait for the terminal prompt before you continue, this could take minute or two.<br/><br/>
+**Paste the following into your terminal:**<br/> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br/>Follow all prompts and wait for the terminal prompt before you continue, this could take minute or two.<br/>
 **Note** Install XCode if you're prompted to do so.<br/><br/>
 
 **Paste the following into your terminal:** `brew update` <br/>
