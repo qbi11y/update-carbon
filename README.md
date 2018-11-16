@@ -23,7 +23,7 @@ If a version is not returned you will need to install git tools.<br/>
 
 You should now see a github version.<br/>
 
-## Install Update Carbon
+## Step 1: Install Update Carbon
 Open your terminal (CMD + Space start typing 'terminal')<br/>
 **Type:** `cd ~/Documents`<br/>
 **Type:** `git clone https://github.com/qbi11y/update-carbon.git`<br/>
@@ -33,6 +33,6 @@ Once the repo has been successfully cloned to your machine<br/>
 You may be prompted for your password. This is the password you use to log into your machine.<br/><br/>
 This may take a minute to complete. Once complete, check that the folder and file was added to documents by navigating to the Update Carbon Design Kit folder in your Documents folder and looking for the file name Carbon Design Kit.sketch. **DO NOT** move this folder or rename the file.<br><br>
 
-## Install Carbon Components Library
+## Step 2: Install Carbon Components Library
 Open your Sketch application, go to the Plugin menu item, select 'Manage Plugins', select Libraries, select Add Library, your library file is located in the Update Carbon Design Kit folder in your Documents folder (unless you changed the default location)<br>
  
