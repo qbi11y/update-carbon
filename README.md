@@ -17,19 +17,19 @@ If a version is not returned you will need to install git tools.<br/>
 **How to install git**<br/>
 **Paste the following into your terminal:**<br/> `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`<br/>Follow all prompts and wait for the terminal prompt before you continue, this could take minute or two.<br/>
 **Note** Install XCode if you're prompted to do so.<br/><br/>
-**Paste the following into your terminal:** `brew update` <br/>
-**Paste the following into your terminal:** `brew install git`<br/>
-**Paste the following into your terminal:** `git --version`<br/>
+**Paste the following into your terminal:** `brew update` <br/> hit Enter
+**Paste the following into your terminal:** `brew install git`<br/> hit Enter
+**Paste the following into your terminal:** `git --version`<br/> hit Enter
 
 You should now see a github version.<br/>
 
 ## Step 1: Install Update Carbon
 Open your terminal (CMD + Space start typing 'terminal')<br/>
-**Type:** `cd ~/Documents`<br/>
-**Type:** `git clone https://github.com/qbi11y/update-carbon.git`<br/>
+**Type:** `cd ~/Documents`<br/> hit Enter
+**Type:** `git clone https://github.com/qbi11y/update-carbon.git`<br/> hit Enter
 Once the repo has been successfully cloned to your machine<br/>
-**Type:** `cd update-carbon`<br/>
-**Type:** `./install.sh`<br/>
+**Type:** `cd update-carbon`<br/> hit Enter
+**Type:** `./install.sh`<br/> hit Enter
 You may be prompted for your password. This is the password you use to log into your machine.<br/><br/>
 This may take a minute to complete. Once complete, check that the folder and file was added to documents by navigating to the Update Carbon Design Kit folder in your Documents folder and looking for the file name Carbon Design Kit.sketch. **DO NOT** move this folder or rename the file.<br><br>
 
